@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="109">
+<modDesc descVersion="110">
     <author>VertexDezign</author>
     <version>1.0.0.0</version>
     <title>
@@ -7,8 +7,7 @@
         <de>Gülletransfer</de>
     </title>
     <description>
-        <en
-        ><![CDATA[Automatically transfers liquid manure from your animal husbandries into nearby production points that use it as an input — for example a biogas plant connected directly to a cow barn.
+        <en><![CDATA[Automatically transfers liquid manure from your animal husbandries into nearby production points that use it as an input — for example a biogas plant connected directly to a cow barn.
 
 Once per in-game hour, all liquid manure stored in your husbandries is moved into productions of the same farm within the configured range. No more slurry tanker shuttle runs between the barn and the biogas plant.
 
@@ -20,8 +19,7 @@ Settings (Ingame -> Game Settings -> Liquid Manure Transfer):
 Fully multiplayer compatible: settings are synced between clients and the server.
 
 Console commands: lmtPrintSettings, lmtSetDistance, lmtSetLogLevel, lmtTransferNow]]></en>
-        <de
-        ><![CDATA[Überträgt Gülle automatisch von deinen Tierhaltungen in nahegelegene Produktionen, die Gülle als Eingangsmaterial verwenden — zum Beispiel eine Biogasanlage, die direkt an einen Kuhstall angeschlossen ist.
+        <de><![CDATA[Überträgt Gülle automatisch von deinen Tierhaltungen in nahegelegene Produktionen, die Gülle als Eingangsmaterial verwenden — zum Beispiel eine Biogasanlage, die direkt an einen Kuhstall angeschlossen ist.
 
 Einmal pro Spielstunde wird die in den Tierhaltungen gelagerte Gülle in Produktionen derselben Farm innerhalb der eingestellten Reichweite verschoben. Keine Pendelfahrten mit dem Güllefass zwischen Stall und Biogasanlage mehr.
 
