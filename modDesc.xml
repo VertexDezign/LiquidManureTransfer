@@ -40,6 +40,6 @@ Konsolenbefehle: lmtPrintSettings, lmtSetDistance, lmtSetLogLevel, lmtTransferNo
     </extraSourceFiles>
 
     <l10n filenamePrefix="l10n/lang"/>
-    <iconFilename>icon_LiquidManureTransfer.dds</iconFilename>
+    <iconFilename>icon_LiquidManureTransfer.png</iconFilename>
     <multiplayer supported="true"/>
 </modDesc>
