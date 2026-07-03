@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="109">
+    <author>VertexDezign</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Liquid Manure Transfer</en>
+        <de>Gülletransfer</de>
+    </title>
+    <description>
+        <en
+        ><![CDATA[Automatically transfers liquid manure from your animal husbandries into nearby production points that use it as an input — for example a biogas plant connected directly to a cow barn.
+
+Once per in-game hour, all liquid manure stored in your husbandries is moved into productions of the same farm within the configured range. No more slurry tanker shuttle runs between the barn and the biogas plant.
+
+Settings (Ingame -> Game Settings -> Liquid Manure Transfer):
+
+- Transfer range: 100 m to 1000 m in 100 m steps
+- Log level: Error, Warning, Info or Debug
+
+Fully multiplayer compatible: settings are synced between clients and the server.
+
+Console commands: lmtPrintSettings, lmtSetDistance, lmtSetLogLevel, lmtTransferNow]]></en>
+        <de
+        ><![CDATA[Überträgt Gülle automatisch von deinen Tierhaltungen in nahegelegene Produktionen, die Gülle als Eingangsmaterial verwenden — zum Beispiel eine Biogasanlage, die direkt an einen Kuhstall angeschlossen ist.
+
+Einmal pro Spielstunde wird die in den Tierhaltungen gelagerte Gülle in Produktionen derselben Farm innerhalb der eingestellten Reichweite verschoben. Keine Pendelfahrten mit dem Güllefass zwischen Stall und Biogasanlage mehr.
+
+Einstellungen (Im Spiel -> Spieleinstellungen -> Gülletransfer):
+
+- Transferreichweite: 100 m bis 1000 m in 100-m-Schritten
+- Log-Level: Fehler, Warnung, Info oder Debug
+
+Vollständig multiplayerfähig: Die Einstellungen werden zwischen Clients und Server synchronisiert.
+
+Konsolenbefehle: lmtPrintSettings, lmtSetDistance, lmtSetLogLevel, lmtTransferNow]]></de>
+    </description>
+
+    <extraSourceFiles>
+        <sourceFile filename="src/LiquidManureTransferChangeSettingsEvent.lua"/>
+        <sourceFile filename="src/LiquidManureTransfer.lua"/>
+        <sourceFile filename="src/LiquidManureTransferSettings.lua"/>
+    </extraSourceFiles>
+
+    <l10n filenamePrefix="l10n/lang"/>
+    <iconFilename>icon_LiquidManureTransfer.dds</iconFilename>
+    <multiplayer supported="true"/>
+</modDesc>

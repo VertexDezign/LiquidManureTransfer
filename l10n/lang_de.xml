@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="lmt_title" text="Gülletransfer" />
+        <text name="lmt_distance" text="Transferreichweite" />
+        <text name="lmt_distance_tooltip" text="Maximale Entfernung zwischen einer Tierhaltung und einer Produktion, damit Gülle einmal pro Spielstunde automatisch übertragen wird" />
+        <text name="lmt_logLevel" text="Log-Level" />
+        <text name="lmt_logLevel_tooltip" text="Wie viel der Mod ins Spiel-Log schreibt: Fehler, Warnung, Info oder Debug" />
+        <text name="lmt_logLevel_error" text="Fehler" />
+        <text name="lmt_logLevel_warning" text="Warnung" />
+        <text name="lmt_logLevel_info" text="Info" />
+        <text name="lmt_logLevel_debug" text="Debug" />
+    </texts>
+</l10n>

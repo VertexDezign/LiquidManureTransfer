@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="lmt_title" text="Liquid Manure Transfer" />
+        <text name="lmt_distance" text="Transfer range" />
+        <text name="lmt_distance_tooltip" text="Maximum distance between an animal husbandry and a production point for liquid manure to be transferred automatically once per in-game hour" />
+        <text name="lmt_logLevel" text="Log level" />
+        <text name="lmt_logLevel_tooltip" text="How much the mod writes to the game log: Error, Warning, Info or Debug" />
+        <text name="lmt_logLevel_error" text="Error" />
+        <text name="lmt_logLevel_warning" text="Warning" />
+        <text name="lmt_logLevel_info" text="Info" />
+        <text name="lmt_logLevel_debug" text="Debug" />
+    </texts>
+</l10n>
