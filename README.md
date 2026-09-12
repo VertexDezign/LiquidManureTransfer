@@ -9,7 +9,8 @@ shuttle runs between the barn and the plant.
 Once per in-game hour (on the server), the mod:
 
 1. Collects all production points that have **liquid manure as a production input** (e.g. a biogas plant). Productions
-   that merely have a storage slot for liquid manure but no recipe consuming it are ignored.
+   that merely have a storage slot for liquid manure but no recipe consuming it are ignored. The fermenters of the
+   configurable biogas plants from the _Pumps N' Hoses Pack_ DLC are supported as well.
 2. For every animal husbandry with a liquid manure output, finds those productions that
     - belong to the **same farm** as the husbandry, and
     - are within the configured **transfer range** (distance between the two buildings).
