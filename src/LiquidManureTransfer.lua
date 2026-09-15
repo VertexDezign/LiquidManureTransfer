@@ -141,8 +141,16 @@ local function setLevel(storage, ft, level, farmId, delta)
 end
 
 local function getProductionPoint(placeable)
-    if placeable ~= nil and placeable.spec_productionPoint ~= nil then
+    if placeable == nil then
+        return nil
+    end
+    -- vanilla production point
+    if placeable.spec_productionPoint ~= nil then
         return placeable.spec_productionPoint.productionPoint
+    end
+    -- Pumps n' Hoses Pack
+    if placeable.spec_sandboxPlaceableProductionPoint ~= nil then
+        return placeable.spec_sandboxPlaceableProductionPoint.productionPoint
     end
     return nil
 end
